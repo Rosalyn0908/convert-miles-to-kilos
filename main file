@@ -1,0 +1,19 @@
+<html>
+<body>
+  <p id="demo"> </p>
+
+<script>
+  convert_miles_to_kilos();
+
+  function convert_miles_to_kilos() {
+     var miles = prompt("how many miles do you drive to work?");
+     miles = parseInt(miles);
+      var kilos = miles * 1.60934; 
+
+     document.write("You drive " + kilos + " kilometers to work")
+    }
+    
+</script>
+
+</body>
+</html>
